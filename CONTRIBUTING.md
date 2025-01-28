@@ -25,7 +25,7 @@ OmniSearch/
 2. **src/**: This directory contains your source code.
    - **main.rs**: The main entry point for your binary application.
    - **lib.rs**: If your project is a library or you want to share code between multiple binaries, you can create a lib.rs file.
-   - **module_name.rs**: Place your Rust modules in separate files. The file name should match the module name.
+   - **module_name.rs**: Place your Rust modules in separate files. The file _name should match the module _name.
    - **other_module/**: If a module has multiple files, you can create a directory for it. The mod.rs file serves as the entry point for that module, and you can include other files as needed.
 3. **integration_test.rs**: An example of an integration test file. You can create multiple test files as needed.
 4. **benches/**: This directory is for benchmark tests, which are used to measure the performance of your code. You can create benchmark files here if you are using the criterion crate or similar.
@@ -45,4 +45,4 @@ OmniSearch/
 
 This structure helps keep your project organized and makes it easier to navigate. You can adjust the structure based on the complexity of your project and your personal preferences, but following these conventions will help you maintain a clean and understandable codebase.
 
-and alternative short remember and easy to spell name to omniSearch  for a project aiming at providing searching for domains listed in various blacklists and intent to show the domain, to which blacklists it is related to
+and alternative short remember and easy to spell _name to omniSearch  for a project aiming at providing searching for domains listed in various blacklists and intent to show the domain, to which blacklists it is related to

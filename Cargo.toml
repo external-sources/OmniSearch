@@ -2,6 +2,7 @@
 name = "omniSearch"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.84.0"  # Minimum required Rust version
 authors = ["My Privacy DNS", "@spirillen"]
 description = "Search tool for finding DNS blacklist records among various sources"
 documentation = "https://github.com/external-sources/omniSearch/README.md"
@@ -12,4 +13,9 @@ repository = "https://github.com/external-sources/omniSearch"
 license-file = "LICENSE.md"
 publish = true
 
+
 [dependencies]
+rand = "0.9.0"
+regex = "1.11.1"
+uuid = { version = "1.12.1", features = ["v4"] }
+glob = "0.3.2"
