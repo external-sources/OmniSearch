@@ -1,0 +1,15 @@
+[package]
+name = "OmniSearch"
+version = "0.1.0"
+edition = "2021"
+authors = ["My Privacy DNS", "@spirillen"]
+description = "Search tool for finding DNS blacklist records among various sources"
+documentation = "https://github.com/external-sources/omniSearch/README.md"
+readme = "README.md"
+license = "AGPL-3.0-or-later AND CC-BY-NC-SA-4.0"
+homepage = "https://github.com/external-sources/omniSearch"
+repository = "https://github.com/external-sources/omniSearch"
+license-file = "LICENSE.md"
+publish = true
+
+[dependencies]
