@@ -1,5 +1,5 @@
 [package]
-name = "OmniSearch"
+name = "omniSearch"
 version = "0.1.0"
 edition = "2021"
 authors = ["My Privacy DNS", "@spirillen"]
